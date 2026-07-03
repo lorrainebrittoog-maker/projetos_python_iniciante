@@ -1,9 +1,6 @@
-# GORJETA
-
-
 valor_compras = float(input("Valor total da compra: "))
 
-# QUALIDADE DO ATENDIMENTO:
+
 print("Qual foi a qualidade do atendimento?")
 
 print("1 - Péssimo... (0% de gorjeta)")
@@ -29,9 +26,6 @@ else:
     gorjeta = 0
  
 
-
-
-# SAÍDA DOS VALORES
 print(f"Valor das compras: {valor_compras:.2f}")
 print(f"Valor da gorjeta: {gorjeta:.2f}")
 print(f"Valor total {valor_compras + gorjeta:.2f}")
